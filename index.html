@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EMI CALCULATOR</title>
+    <script defer src="./index.js"></script>
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+  </head>
+  <body>
+    <div class="center">
+      <div>
+        <h1>EMI CALCULATOR</h1>
+      </div>
+      <div>
+        <label for="principal">Principal</label>
+        <input type="number" id="principal" />
+      </div>
+      <div>
+        <label for="time">Time Period</label>
+        <input type="number" id="time" />
+      </div>
+      <div>
+        <label for="rate">Rate</label>
+        <input type="number" id="rate" />
+      </div>
+      <div>
+        <input type="submit" id="btn" value="submit" />
+      </div>
+      <div>
+        <h4>Amount Invested: <span id="amount">0</span></h4>
+        <h4>Time Period: <span id="displayTime">0</span></h4>
+        <h4>Expected Return: <span id="returnExpected">0</span></h4>
+        <h4>Total Vlaue: <span id="total">0</span></h4>
+      </div>
+    </div>
+  </body>
+</html>
